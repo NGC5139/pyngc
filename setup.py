@@ -1,12 +1,14 @@
 from setuptools import setup, find_packages
  
-__version__ = '0.10' # version
+__version__ = '0.11' # version
 
 setup(name = 'ngc', 
     version = __version__,
     url='https://github.com/ngc5139/pyngc',
     author='NGC5139',
     description='Python New General Common Tool',
+    long_description='# Python New General Common Tool\n\nA simple common py-tool mainly formed with easy functions for users who like to write small scripts, with less class and complex things.\n\nPlease use the newest version of python to use. It is being improved.\n\nIt use lambda in general. It includes functions of multi-regions like os as dirlist(traverse folder), IO, string operating, data struct operating and web operating.\n',
+    long_description_content_type='text/markdown',
     author_email='cencrx@outlook.com',
     packages=find_packages(exclude=["tests"]),
     install_requires=['requests'],
